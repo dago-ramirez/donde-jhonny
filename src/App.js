@@ -6,7 +6,7 @@ import MainContainer from './components/main/MainContainer';
 
 function App() {
   return (
-    <div className="App h-screen">
+    <div className="App">
       <Header />
       <MainContainer />
       <Footer />

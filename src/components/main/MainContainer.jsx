@@ -4,19 +4,72 @@ import pizza2 from '../../images/pizza-2.jpg';
 import pizza3 from '../../images/pizza-3.jpg';
 import pizza4 from '../../images/pizza-4.jpg';
 import pizza5 from '../../images/pizza-5.jpg';
-import PizzaGallery from './PizzaGallery';
+import Inicio from './Inicio';
+import Menu from './Menu';
 
-const PRODUCTOS = [ {'id': 1, 'pizza': pizza1, 'precio': 20000},
-                    {'id': 2, 'pizza': pizza2, 'precio': 25000}, 
-                    {'id': 3, 'pizza': pizza3, 'precio': 30000},
-                    {'id': 4, 'pizza': pizza4, 'precio': 35000},
-                    {'id': 5, 'pizza': pizza5, 'precio': 40000}
+const PRODUCTOS = [ 
+                    {
+                        'id': 1, 
+                        'nombre': 'Nombre del producto', 
+                        'descripcion': 'En esta parte va la descripción de la pizza o el producto que se está ofreciendo. Sus ingredientes y todo lo relacionado.', 
+                        'imagen': pizza1, 
+                        'porciones': [
+                                        {'personal': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'mediana': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'grande': {'cantidad': 'X porciones', 'precio': '00.000'}}
+                                     ]
+                    },
+                    {
+                        'id': 2, 
+                        'nombre': 'Nombre del producto', 
+                        'descripcion': 'En esta parte va la descripción de la pizza o el producto que se está ofreciendo. Sus ingredientes y todo lo relacionado.', 
+                        'imagen': pizza2, 
+                        'porciones': [
+                                        {'personal': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'mediana': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'grande': {'cantidad': 'X porciones', 'precio': '00.000'}}
+                                     ]
+                    }, 
+                    {
+                        'id': 3, 
+                        'nombre': 'Nombre del producto', 
+                        'descripcion': 'En esta parte va la descripción de la pizza o el producto que se está ofreciendo. Sus ingredientes y todo lo relacionado.', 
+                        'imagen': pizza3, 
+                        'porciones': [
+                                        {'personal': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'mediana': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'grande': {'cantidad': 'X porciones', 'precio': '00.000'}}
+                                     ]
+                    },
+                    {
+                        'id': 4, 
+                        'nombre': 'Nombre del producto', 
+                        'descripcion': 'En esta parte va la descripción de la pizza o el producto que se está ofreciendo. Sus ingredientes y todo lo relacionado.', 
+                        'imagen': pizza4, 
+                        'porciones': [
+                                        {'personal': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'mediana': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'grande': {'cantidad': 'X porciones', 'precio': '00.000'}}
+                                      ]
+                    },
+                    {
+                        'id': 5, 
+                        'nombre': 'Nombre del producto', 
+                        'descripcion': 'En esta parte va la descripción de la pizza o el producto que se está ofreciendo. Sus ingredientes y todo lo relacionado.', 
+                        'imagen': pizza5, 
+                        'porciones': [
+                                        {'personal': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'mediana': {'cantidad': 'X porciones', 'precio': '00.000'}}, 
+                                        {'grande': {'cantidad': 'X porciones', 'precio': '00.000'}}
+                                      ]
+                    }
                   ]
 
 export default function MainContainer() {
     return (
-        <div className="h-full main-container overflow-y-scroll" >
-            <PizzaGallery productos={PRODUCTOS} />
+        <div className="h-full main-container" >
+            {/* <Inicio productos={PRODUCTOS} /> */}
+            <Menu productos={PRODUCTOS} />
         </div>
     )
 }
