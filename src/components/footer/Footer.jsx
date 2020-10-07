@@ -15,7 +15,7 @@ export default function Footer() {
                 <a href="/" className="text-sm text-white hover:text-gray-400" >Visión</a>
                 <a href="/" className="text-sm text-white hover:text-gray-400" >Nuestro Municipio</a>
             </div>
-            <div className="flex flex-col items-start my-3 md:my-0  ml-5 md:ml-0" >
+            <div className="flex flex-col items-start my-3 sm:my-0  ml-5 md:ml-0" >
                 <h1 className="text-lg text-white font-bold underline" >Donde Jhonny</h1>
                 <h1 className="text-sm text-white" >Cel: 315 202 9674</h1>
                 <h1 className="text-sm text-white" >Correo: donde-jhonny@correo.com</h1>
