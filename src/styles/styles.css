@@ -8,3 +8,14 @@
     background-image: linear-gradient( 115deg, rgba(255, 255, 255, 0.7), 
     rgba(255, 255, 255, 0.7) ),url('../images/icons-2.png');
 }
+
+.icon-left{
+    position: absolute;
+    top: 70%;
+}
+
+.icon-right{
+    position: absolute;
+    top: 70%;
+    right: 18%;
+}
