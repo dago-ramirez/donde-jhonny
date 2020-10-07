@@ -9,7 +9,7 @@ const ICON_INSTAGRAM = <FontAwesomeIcon icon={faInstagramSquare} />;
 export default function Footer() {
     return (
         <div className="bg-green-jhonny text-center flex flex-col sm:flex-row items-start md:items-center justify-around py-2" >
-            <div className="flex flex-col items-start ml-5 md:ml-0" >
+            <div className="flex flex-col items-start ml-5 sm:ml-0" >
                 <h1 className="text-lg text-white font-bold underline" >Corporativo</h1>
                 <a href="/" className="text-sm text-white hover:text-gray-400" >Misión</a>
                 <a href="/" className="text-sm text-white hover:text-gray-400" >Visión</a>
@@ -21,7 +21,7 @@ export default function Footer() {
                 <h1 className="text-sm text-white" >Correo: donde-jhonny@correo.com</h1>
                 <h1 className="text-sm text-white" >El Águila Valle | © 2020</h1>
             </div>
-            <div className="flex flex-col items-start ml-5 md:ml-0" >
+            <div className="flex flex-col items-start ml-5 sm:ml-0" >
                 <h1 className="text-lg text-white font-bold underline" >Síguenos en</h1>
                 <div className="flex flex-row items-start justify-between">
                     <a href="/" className="text-3xl text-white hover:text-gray-400" >{ICON_FACEBOOK}</a>
