@@ -21,7 +21,15 @@
 }
 
 .promo {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color:  #F0FFF4aa;
     bottom: 150px;
     border-radius: 10px;
+}
+
+.contacto {
+    background-color: #F0FFF4aa;
+}
+
+.icon-wa {
+    color: #4cc65b;
 }

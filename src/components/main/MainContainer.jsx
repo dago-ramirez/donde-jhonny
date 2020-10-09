@@ -4,6 +4,7 @@ import pizza2 from '../../images/pizza-2.jpg';
 import pizza3 from '../../images/pizza-3.jpg';
 import pizza4 from '../../images/pizza-4.jpg';
 import pizza5 from '../../images/pizza-5.jpg';
+import Contacto from './Contacto';
 import Inicio from './Inicio';
 import Menu from './Menu';
 import Promociones from './Promociones';
@@ -95,10 +96,11 @@ const PROMOCIONES = [
 
 export default function MainContainer() {
     return (
-        <div className="h-full main-container" >
-            {/* <Inicio productos={PRODUCTOS} /> */}
-            {/* <Menu productos={PRODUCTOS} /> */}
-            <Promociones promociones={PROMOCIONES} />
+        <div className="main-container h-full flex flex-col items-center justify-center" >
+            {/* <Inicio productos={PRODUCTOS} />
+            <Menu productos={PRODUCTOS} /> */}
+            {/* <Promociones promociones={PROMOCIONES} /> */}
+            <Contacto />
         </div>
     )
 }

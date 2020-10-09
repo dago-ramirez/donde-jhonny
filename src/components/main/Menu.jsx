@@ -21,8 +21,7 @@ export default function Menu({ productos }) {
         });
         return <div key={item.id} className="w-full sm:w-4/6 my-4 border-8 border-green-jhonny rounded-lg bg-green-100">
                     <img src={item.imagen} alt="pizza" />
-                    <div className="m-5
-                    " >
+                    <div className="m-5" >
                         <h1 className="text-2xl text-red-jhonny font-bold underline mb-3" >{item.nombre}</h1>
                         <p className="text-lg text-red-jhonny mb-3" >{item.descripcion}</p>
                         {PRECIOS}
