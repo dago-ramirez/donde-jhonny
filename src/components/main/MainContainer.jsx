@@ -8,6 +8,7 @@ import Contacto from './Contacto';
 import Inicio from './Inicio';
 import Menu from './Menu';
 import Promociones from './Promociones';
+import Sugerencias from './Sugerencias';
 
 const PRODUCTOS = [ 
     {
@@ -101,6 +102,7 @@ export default function MainContainer() {
             <Menu productos={PRODUCTOS} /> */}
             {/* <Promociones promociones={PROMOCIONES} /> */}
             <Contacto />
+            <Sugerencias />
         </div>
     )
 }
